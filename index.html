@@ -1,0 +1,53 @@
+<html>
+  <head></head>
+  <body>
+    <script type="text/javascript">
+      //switch cases
+      let num1 = 10;
+      let num2 = 20;
+      let action = "add";
+
+      /* switch (action) {
+        case "add":
+          alert(num1 + num2);
+          break;
+        case "sub":
+          alert(num1 - num2);
+          break;
+        case "mul":
+          alert(num1 * num2);
+        case "div":
+          alert(num1 / num2);
+        default:
+          alert("Invalid action");
+      }
+      */
+
+      //ternary operation
+
+      /*let result = num1 > num2 ? "num1 is greater" : "num2 is greater";
+      alert(result);
+      */
+
+      //nested if/else statements
+
+      let timeHasPassed = 5; //minutes
+      let amIcooking = true;
+      if (amIcooking == true && timeHasPassed < 5) {
+        alert("Keep cooking, wait for 5 minutes");
+      } else if (
+        amIcooking == true &&
+        timeHasPassed >= 5 &&
+        timeHasPassed <= 15
+      ) {
+        if (timeHasPassed == 7) {
+          alert("add some salt");
+        } else if (timeHasPassed == 10) {
+          alert("add some pepper");
+        } else if (timeHasPassed == 15) {
+          alert("turn off the stove");
+        }
+      }
+    </script>
+  </body>
+</html>
