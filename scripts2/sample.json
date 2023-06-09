@@ -1,0 +1,12 @@
+{
+  "name": "beqa ",
+  "surname": "beridze",
+  "visitedPlaces": [
+    {
+      "city": "paris",
+      "month": "april",
+      "day": 25
+    },
+    { "city": "tbilisi", "month": "may", "day": 20 }
+  ]
+}
